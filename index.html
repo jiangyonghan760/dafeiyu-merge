@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+<title>合成大肥鱼 · Merge the Whale</title>
+<meta name="description" content="把两只同款肥鱼碰在一起，她们就会进化！11 级大肥鱼合成小游戏。" />
+<meta name="theme-color" content="#081627" />
+<meta property="og:title" content="合成大肥鱼 · Merge the Whale" />
+<meta property="og:description" content="两只同款肥鱼碰一碰，就会进化！你能养出「飘了鱼」吗？" />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐳</text></svg>" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="app">
+  <div class="col">
+    <header class="topbar">
+      <div class="brandline">
+        <div class="brand">
+          <h1>合成大肥鱼</h1>
+          <p>MERGE THE WHALE · 11 级进化</p>
+        </div>
+        <div class="btns">
+          <button id="btnSound" class="icon" aria-label="声音开关" title="声音 (M)">🔊</button>
+          <button id="btnBook" class="icon" aria-label="肥鱼图鉴" title="图鉴">📖</button>
+          <button id="btnRestart" class="icon" aria-label="重新开始" title="重新开始 (R)">↻</button>
+        </div>
+      </div>
+      <div class="hud">
+        <div class="stat">
+          <span>得分</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="stat">
+          <span>最高</span>
+          <strong id="best">0</strong>
+        </div>
+        <div class="next">
+          <span>下一个</span>
+          <div class="next-thumb"><img id="nextImg" alt="" /></div>
+          <em id="nextName">小懵鱼</em>
+        </div>
+      </div>
+    </header>
+
+    <main class="board-wrap" id="boardWrap">
+      <canvas id="game" aria-label="合成大肥鱼游戏区"></canvas>
+      <div class="combo" id="combo"></div>
+      <div class="toast" id="toast"></div>
+      <div class="hint" id="hint">移动鼠标 · 点击投放</div>
+
+      <div class="overlay hidden" id="overlay">
+        <div class="card">
+          <div class="card-fish"><img id="overFish" alt="" /></div>
+          <h2 id="overTitle">鱼塘满了</h2>
+          <p id="overDesc">肥鱼们挤不下啦，再来一缸？</p>
+          <div class="over-score">
+            <div><span>本局得分</span><strong id="overScore">0</strong></div>
+            <div><span>历史最高</span><strong id="overBest">0</strong></div>
+          </div>
+          <button class="primary" id="btnAgain">再养一缸</button>
+          <button class="ghost" id="btnShare">分享战绩</button>
+        </div>
+      </div>
+
+      <div class="overlay hidden" id="book">
+        <div class="card book-card">
+          <button class="close" id="btnBookClose" aria-label="关闭">×</button>
+          <h2>肥鱼图鉴</h2>
+          <p class="book-sub">两只同级肥鱼相撞即可进化，解锁全部 11 级</p>
+          <div class="book-grid" id="bookGrid"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <span class="tip"><b>玩法</b>同款相撞 → 进化一级 · 堆过红线就满缸</span>
+      <a class="repo" href="https://github.com/jiangyonghan760/dafeiyu-merge" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+  </div>
+</div>
+
+<script src="js/matter.min.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

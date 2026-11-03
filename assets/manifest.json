@@ -1,0 +1,112 @@
+[
+  {
+    "level": 1,
+    "key": "wenhao",
+    "name": "小懵鱼",
+    "color": "#8ed2ff",
+    "radius": 18,
+    "quote": "？",
+    "src": "assets/fish-01.webp",
+    "bytes": 33088
+  },
+  {
+    "level": 2,
+    "key": "toukan",
+    "name": "偷看鱼",
+    "color": "#7cc4f7",
+    "radius": 24,
+    "quote": "盯——",
+    "src": "assets/fish-02.webp",
+    "bytes": 26036
+  },
+  {
+    "level": 3,
+    "key": "haixiu",
+    "name": "害羞鱼",
+    "color": "#9db6ff",
+    "radius": 31,
+    "quote": "…别看我",
+    "src": "assets/fish-03.webp",
+    "bytes": 30842
+  },
+  {
+    "level": 4,
+    "key": "bixin",
+    "name": "比心鱼",
+    "color": "#a99bff",
+    "radius": 39,
+    "quote": "给你比个心",
+    "src": "assets/fish-04.webp",
+    "bytes": 33300
+  },
+  {
+    "level": 5,
+    "key": "ganfan",
+    "name": "干饭鱼",
+    "color": "#c39bf5",
+    "radius": 48,
+    "quote": "先干饭！",
+    "src": "assets/fish-05.webp",
+    "bytes": 34472
+  },
+  {
+    "level": 6,
+    "key": "deyi",
+    "name": "得意鱼",
+    "color": "#e79be6",
+    "radius": 58,
+    "quote": "嘿嘿嘿",
+    "src": "assets/fish-06.webp",
+    "bytes": 31798
+  },
+  {
+    "level": 7,
+    "key": "tangping",
+    "name": "躺平鱼",
+    "color": "#ff9dc4",
+    "radius": 70,
+    "quote": "摆了",
+    "src": "assets/fish-07.webp",
+    "bytes": 23182
+  },
+  {
+    "level": 8,
+    "key": "shuijiao",
+    "name": "睡觉鱼",
+    "color": "#ff9aa9",
+    "radius": 82,
+    "quote": "呼…呼…",
+    "src": "assets/fish-08.webp",
+    "bytes": 28476
+  },
+  {
+    "level": 9,
+    "key": "zhenjing",
+    "name": "震惊鱼",
+    "color": "#ffa878",
+    "radius": 96,
+    "quote": "啊？？",
+    "src": "assets/fish-09.webp",
+    "bytes": 39114
+  },
+  {
+    "level": 10,
+    "key": "ok",
+    "name": "点赞鱼",
+    "color": "#ffc65c",
+    "radius": 107,
+    "quote": "这条鱼值得",
+    "src": "assets/fish-10.webp",
+    "bytes": 34324
+  },
+  {
+    "level": 11,
+    "key": "piaole",
+    "name": "飘了鱼",
+    "color": "#ff7fa8",
+    "radius": 121,
+    "quote": "我已经飘了",
+    "src": "assets/fish-11.webp",
+    "bytes": 31096
+  }
+]
